@@ -23,7 +23,7 @@ public class enemycontroller : MonoBehaviour
 
             if (Vector3.Dot(forward, toOther) < 0.99)
             {
-                if ()
+                if (Vector3.Dot(toOther,forward)  < 0.99)
                 {
                     movent.Rotate(1);
                 }
